@@ -71,4 +71,12 @@
       max-width: 632px;
     }
   }
+
+  @media screen and(max-width: 700px) {
+    .home-header {
+      .img-user-study {
+        display: none;
+      }
+    }
+  }
 </style>

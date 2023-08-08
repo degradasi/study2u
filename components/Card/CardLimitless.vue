@@ -32,7 +32,7 @@ export default {
     display: flex;
 
     img {
-      height: 100%;
+      min-height: 100%;
       width: 204px;
       object-fit: cover;
       border-radius: 16px 0 0 16px;

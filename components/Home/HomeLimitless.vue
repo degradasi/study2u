@@ -49,6 +49,19 @@ export default {
       margin: 8px;
       width: calc(100% / 2);
     }
+  }
 
+  @media screen and(max-width: 882px) {
+    .home-limitless {
+      .card-limitless {
+        width: 100%;  
+        margin: 8px -0;
+      }
+
+      .wrap-list {
+        flex-flow: column;
+        margin: 32px 0 -8px;
+      }
+    }
   }
 </style>

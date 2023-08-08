@@ -86,6 +86,26 @@ export default {
       ]
     }
   },
+  computed: {
+    screenWidth() {
+      return window.innerWidth
+    }
+  },
+  watch: {
+    screenWidth() {
+      this.setPerPageCarousel()
+    }
+  },
+  mounted() {
+    this.setPerPageCarousel()
+  },
+  methods: {
+    setPerPageCarousel() {
+      if (this.screenWidth <= 700) {
+        this.options.perPage = 1.5
+      }
+    }
+  },
 }
 </script>
 

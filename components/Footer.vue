@@ -40,7 +40,7 @@
             </nuxt-link>
           </div>
         </div>
-        <div>
+        <div class="wrap-connect">
           <div class="semibold-subtitle">
             Connect with us
           </div>
@@ -98,6 +98,14 @@
     .semibold-body {
       color: $color-white;
       text-decoration: none;
+    }
+  }
+
+  @media screen and(max-width: 668px) {
+    .footer {
+      .wrap-connect {
+        margin-top: 40px;
+      }
     }
   }
 </style>

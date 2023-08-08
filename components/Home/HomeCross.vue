@@ -28,19 +28,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="d-flex justify-center">
-        <div class="wrap-content d-flex justify-space-between align-center mx-4 flex-row-reverse">
-          <img class="mr-2" src="@/assets/images/students.svg" alt="walk-student">
-          <div class="d-flex flex-column wrap-text-content">
-            <h6 class="bold-h6">
-              Connect and engage
-            </h6>
-            <div class="regular-subtitle mt-1">
-              Connect with a vibrant community of students, mentors, and industry professionals. Engage in meaningful discussions, collaborate on projects, and build lifelong connections. Study2U is your gateway to networking opportunities and a support system that will inspire you to reach new heights.
-            </div>
-          </div>
-        </div>
-      </div> -->
     </v-container>
   </div>
 </template>
@@ -85,6 +72,27 @@ export default {
     img {
       width: 290px;
       height: 306px;
+    }
+  }
+
+  @media screen and(max-width: 700px) {
+    .home-cross {
+      .mb-14 {
+        margin-bottom: 24px !important;
+      }
+
+      .mb-12 {
+        margin-bottom: 28px !important;
+      }
+
+      .wrap-content {
+        flex-flow: column !important;
+        margin: 0px !important;
+
+        .wrap-text-content {
+          margin-top: 28px;
+        }
+      }
     }
   }
 </style>

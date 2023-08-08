@@ -129,4 +129,19 @@ export default {
       }
     }
   }
+
+  @media screen and(max-width: 700px) {
+    .home-ranking {
+      .result-category {
+        .card-university-ranking {
+          .name-university {
+            width: 110px;
+          }
+          .info-reputation {
+            max-width: calc(100% - 194px);
+          }
+        }
+      }
+    }
+  }
 </style>
