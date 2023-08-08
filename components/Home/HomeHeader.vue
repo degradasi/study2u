@@ -74,6 +74,26 @@
 
   @media screen and(max-width: 700px) {
     .home-header {
+      .group-img {
+        overflow: auto;
+        width: 100px;
+        min-width: calc(100% + 24px);
+        flex-wrap: nowrap !important;
+        margin: 0 -12px;
+
+        img:first-child {
+          margin-left: 8px;
+        }
+
+        img:last-child {
+          margin-right: 8px;
+        }
+      }
+
+      .group-img::-webkit-scrollbar {
+        display: none;
+      }
+
       .img-user-study {
         display: none;
       }
