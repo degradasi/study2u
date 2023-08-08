@@ -103,6 +103,10 @@
 
   @media screen and(max-width: 668px) {
     .footer {
+      .mx-5 {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+      }
       .wrap-connect {
         margin-top: 40px;
       }
