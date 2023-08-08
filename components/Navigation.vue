@@ -32,6 +32,7 @@
     position: sticky;
     top: 0px;
     z-index: 2;
+    border-bottom: 1px solid $color-space;
 
     .nav-header {
       height: 40px;
