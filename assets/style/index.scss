@@ -143,3 +143,36 @@
   line-height: 64px;
   font-weight: 700;
 }
+
+.caption-regular {
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.caption-semibold {
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 600;
+}
+.caption-bold {
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+// button
+.v-btn {
+  text-transform: capitalize !important;
+  letter-spacing: normal !important;
+}
+
+.btn-lg {
+  border-radius: 12px !important;
+  padding: 0 16px !important;
+  height: 46px !important;
+}
+
+.btn-primary {
+  background: #1A334F !important;
+  color: $color-white !important;
+}

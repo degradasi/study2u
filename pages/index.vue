@@ -1,11 +1,10 @@
 <template>
   <div>
-    index page
+    <HomeHeader />
+    <HomeCross />
+    <HomeRanking />
+    <HomeMemberSay />
+    <HomeLimitless />
+    <HomeActionPlan />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>

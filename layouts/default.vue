@@ -1,10 +1,9 @@
 <template>
   <v-app>
     <v-main>
-      <v-container class="pt-0 pb-0">
-        <Header />
-        <Nuxt />
-      </v-container>
+      <Navigation />
+      <Nuxt />
+      <Footer />
     </v-main>
   </v-app>
 </template>
