@@ -102,7 +102,7 @@ export default {
   methods: {
     setPerPageCarousel() {
       if (this.screenWidth <= 700) {
-        this.options.perPage = 1.5
+        this.options.perPage = 1
       }
     }
   },

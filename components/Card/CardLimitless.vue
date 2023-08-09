@@ -38,4 +38,16 @@ export default {
       border-radius: 16px 0 0 16px;
     }
   }
+
+  @media screen and(max-width: 450px) {
+    .card-limitless {
+      flex-flow: column;
+
+      img {
+        border-radius: 16px 16px 0 0;
+        width: 100%;
+        height: 204px;
+      }
+    }
+  }
 </style>

@@ -39,6 +39,13 @@
                 {{ item.name }}
               </nuxt-link>
             </v-list-item>
+            <v-divider class="my-4" />
+            <v-list-item>
+              <nuxt-link class="semibold-subtitle d-flex align-center" to="">
+                <img class="mr-2" src="@/assets/icons/user-circle.svg" alt="user-circle">
+                Sign In
+              </nuxt-link>
+            </v-list-item>
           </v-list>
         </v-navigation-drawer>
       </div>
